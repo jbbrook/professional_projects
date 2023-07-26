@@ -1,0 +1,131 @@
+.main,
+.sidebar {
+    margin: 0;
+    padding: 20px;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+
+}
+
+.skills {
+
+    background-color: black;
+    color: white;
+    float: right;
+    width: 25%;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+.divider {
+    color: white;
+}
+
+.main {
+    float: left;
+    width: 69%;
+}
+
+/*card thumbnail banner*/
+#nav.nav {
+    /*nav position lock
+    position: fixed;*/
+    background-color: white;
+}
+
+/*resume thumbnail image*/
+.resume {
+    width: 3%;
+    height: 6%;
+    opacity: .5;
+    transition: .3s
+}
+
+/*resume thumbnail transition*/
+.resume:hover {
+    opacity: 1;
+}
+
+/*linkedin thumbnail image*/
+.linkedin {
+    width: 5%;
+    height: 5%;
+    padding-top: 1%;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+/*hover opacity transition*/
+.linkedin:hover {
+    opacity: 1;
+}
+
+/*Github thumbnail image*/
+.projects {
+    width: 5%;
+    height: 5%;
+    opacity: .5;
+    transition: .3s;
+}
+
+/*project thumbnail transition*/
+.projects:hover {
+    opacity: 1
+}
+
+/*education/training thumbnail image*/
+.education {
+    width: 5%;
+    height: 15%;
+    opacity: .5;
+    transition: .3s;
+}
+
+/*education thumbnail transition*/
+.education:hover {
+    opacity: 1;
+}
+
+/*home thumbnail image*/
+.home {
+    width: 4.5%;
+    height: 5%;
+    padding-right: .5%;
+    opacity: .5;
+    transition: .3s;
+}
+
+/*home thumbnail transition*/
+.home:hover {
+    opacity: 1;
+}
+
+/*anchor for skills dropdown*/
+.dropdown_1 {
+    position: relative;
+    display: center;
+    background-color: black;
+
+}
+
+/*dropdown for skills content hidden*/
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: inherit;
+    z-index: 1;
+}
+
+/*show hidden skills content on hover*/
+.dropdown_1:hover .dropdown_content {
+    display: block;
+
+}
+
+#background {
+    background-color: black;
+}
